@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body{
+    background: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container{
+    height: 50px;
+    width: 670px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h4{ 
+    color: skyblue; 
+    text-transform: uppercase;
+    /* text-align: center;
+    justify-content: center; */
+}
+
+h1{
+    color: white;
+    text-transform: uppercase; 
+    /* text-align: center;
+    justify-content: center; */
+}
+h3{
+    color: white;
+    text-align: center;
+    text-transform: uppercase; 
+    padding: 20px;
+}
+
+p{
+    color: #b9b8b8;
+    /* text-align: center;
+    justify-content: center; */
+}
+.borderbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    height: auto;
+    width: 300px;
+    margin: 0px 0px;
+    padding: 120px 73px;
+    align-items: center;
+     
+}
+
+ .img{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   background-color: rgba(35,60,131,0.75); 
+   margin-left: 90px;
+   background-size: cover;
+   background-position: center;
+}
+.box:nth-child(1) .img1{
+    background-image: url(./Cyber-Security-PNG-Photo.png);
+}
+
+.box:nth-child(2) .img2{
+    background-image: url(./transparent-finances.jpg);
+    backdrop-filter: opacity(90%);
+}
+
+.box:nth-child(3) .img3{
+    background-image: url(./app.jpg); 
+}
+
+.box:hover{
+    background-color: rgb(39, 116, 146);
+    backdrop-filter: opacity(50%);
+}
+/* background-image: url(https://www.pngmart.com/files/7/Cyber-Security-PNG-Photo.png);
+background-image: url(https://www.pngfind.com/pngs/m/557-5576335_icon-of-statistics-hd-png-download.png);
+background-image: url(https://datronixsolutions.net/wp-content/uploads/2019/10/custom-app.png); */
